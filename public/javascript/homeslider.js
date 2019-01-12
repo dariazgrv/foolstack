@@ -12,3 +12,13 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("logo").style.fontSize = "30px";
+  } else {
+    document.getElementById("logo").style.fontSize = "90px";
+  }
+}
