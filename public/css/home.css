@@ -15,8 +15,11 @@
   font-size: 100px;
   text-decoration: overline;
   margin-bottom: 12px;
-  /* position: fixed;
-  transition: 0.2s; */
+  top:0;
+   position: sticky;
+   position: -webkit-sticky;
+background: white;
+ z-index: 999;
 }
 
 .subtitle {
@@ -258,7 +261,7 @@ img {
       width: 50%;
     }
 
-    .add {
+    #ad1 {
       text-align: center;
       font-size: 30px;
       font-family: monospace;
@@ -266,6 +269,12 @@ img {
       color: white;
 
     }
+     #add {  text-align: center;
+       font-size: 30px;
+       font-family: monospace;
+       padding-top: 100px;
+       color: white;
+}
 
     article  {
 
@@ -291,11 +300,75 @@ img {
     #show {
       cursor: pointer;
       text-align: center;
-      position: sticky;
       width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 16px;
       color: blue;
       font-weight: bold;
       font-size: 20px;
       border-radius: 3px 3px 3px 3px;
     }
+    .dest {
+      display: flex;
+      flex-direction: column;
+    }
+
+    article.sticky {
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+
+    }
+
+    ul {
+  display: block;
+  font-size: 2vw;
+  list-style-type:none;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+#delete {
+
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  #lista ul {
+    list-style-type: none;
+
+    padding-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+
+}
+#lista li{
+  margin: 2%;
+}
+#lista h2{
+
+  padding-bottom: 3px;
+}

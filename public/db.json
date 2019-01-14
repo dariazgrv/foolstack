@@ -1,17 +1,24 @@
 {
-  "index": [
+  "addToDB": [
     {
-      "destination": "Caraibe"
-
+      "destination": "dasfaf",
+      "url": "https://i.imgur.com/pzJYWrK.jpg",
+      "id": 8
     },
     {
-      "destination": "Rwanda"
-
+      "destination": "Australia",
+      "url": "https://i.imgur.com/pzJYWrK.jpg",
+      "id": 9
     },
     {
-      "destination": "Norway"
-
+      "destination": "eeee",
+      "url": "https://i.imgur.com/pzJYWrK.jpg",
+      "id": 10
+    },
+    {
+      "destination": "dasfaf",
+      "url": "sdfasdfs",
+      "id": 11
     }
-
   ]
 }
