@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="css/home.css">
   <title> Home </title>
 </head>
-<body>
+<body onload="showDest()">
   <p class="logo"> TRAVEL THE WORLD </p>
   <p class="subtitle"> BEST TRAVELLING DESTINATIONS </p>
 
@@ -17,29 +17,20 @@
         <a href="norway.html">Norway</a>
         <a href="rwanda.html">Rwanda</a>
         <a href="namibia.html">Namibia</a>
-        <a href="more.html">More..</a>
+        <a href="#">More..</a>
       </div>
     </div>
     <a href="add.html">ADD</a>
     <a href="about.html">About</a>
   </nav>
+ <div id= "lista">
 
-  <div class="bg">
-  <p id="ad1"> Here you can add a destination that you think people should visit in 2019</p>
-  <form id="add" >
-
-      <p> <label>Destination name: </label> <input id="destination" type="text" name="destination">
-        </p>
-
-
-            <p> <label>Photo Url: </label> <input id="url" type="text" name="url">
-              </p>
-    <button type="submit" id="submit">Submit</button>
-  </form>
 </div>
+<p> <label>Delete a destination </label> <input id="delete-val" type="text" name="destination">
+  </p>
+  <button id="delete">Delete </button>
 
-<script src="scripts/form.js">
-</script>
-
+  <script src="scripts/form.js  ">
+  </script>
 </body>
 </html>
